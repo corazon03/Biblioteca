@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Biblioteca</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    
+    <div id="logo">
+        <h1>Biblioteca</h1>
+    </div>
+    <div id="inicioSesion">
+        <form action="index.php" method="post">
+            <label>Usuario</label><br/>
+            <input type="text" placeholder="Usuario..."><br/>
+            <label>Contraseña</label><br/>
+            <input type="text" placeholder="Contraseña..."><br/>
+            <input type="submit" value="Iniciar sesión">
+        </form>
+    </div>
 </body>
 </html>
